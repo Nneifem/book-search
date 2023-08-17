@@ -7,8 +7,8 @@ const typeDefs = `
         _id: ID
         username: String
         email: String
-        bookCount: Integer
-        savedBooks: [Book]!
+        bookCount: Int
+        savedBooks: [Book]
     }
 
     type Book {
@@ -29,7 +29,7 @@ const typeDefs = `
         login(email: String!, password: String!): Auth
         addUser(username: String!, email: String!, password: String!): Auth
         saveBook(input: BookInput): User
-        removeBook(bookId: ID! ): User
+        removeBook(bookId: ID!): User
     }
 `;
 
