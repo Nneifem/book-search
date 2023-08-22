@@ -1,6 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
+  "proxity": "http://localhost:3001",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
